@@ -1,3 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh; /* full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top section */
+div.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+div.buttons {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#results {
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
 button.win {
   background-color: green;
   color: white;

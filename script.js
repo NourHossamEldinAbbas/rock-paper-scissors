@@ -38,6 +38,7 @@ function playRound(playerSelection, button) {
     const winnerText =
       playerScore === 5 ? "You won the game!" : "Computer won the game!";
     document.getElementById("winner").textContent = winnerText;
+    document.getElementById("refresh").textContent = "Refresh to play again";
 
     document.getElementById("rock").disabled = true;
     document.getElementById("paper").disabled = true;
