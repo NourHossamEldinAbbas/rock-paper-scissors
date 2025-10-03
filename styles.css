@@ -1,0 +1,14 @@
+button.win {
+  background-color: green;
+  color: white;
+}
+
+button.lose {
+  background-color: red;
+  color: white;
+}
+
+button.tie {
+  background-color: yellow;
+  color: white;
+}
